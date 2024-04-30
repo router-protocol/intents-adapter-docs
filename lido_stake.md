@@ -1,6 +1,6 @@
 # Stake ETH on Lido
 
-The Lido Stake ETH adapter outlines a feature that enables users holding funds on any compatible chain to stake funds on Lido (on Ethereum) in one step. User can also choose the chain on which the funds should be received after liquid staking from among the supported chains. 
+The Lido Stake ETH adapter outlines a feature that enables users holding funds on any compatible chain to stake funds on Lido (on Ethereum) in one step. User can also choose the chain on which the funds should be received after liquid staking. After staking into Lido, we use the native bridge to mint wstETH to the user's wallet on the desired chain. 
 
 ## Components of the Lido Stake ETH Adapter contract
 
