@@ -1,6 +1,6 @@
-# Swap on Dexspan
+# Use the Nitro Dexspan for the Most Efficient Swap
 
-The Dexspan adapter outlines a feature that enables crosschain token swaps in one step.  
+The Dexspan adapter outlines a feature that enables users to interact with the Nitro Dexspan contract for the most efficient swaps.  
 
 ## Components of the Dexspan Adapter contract
 
