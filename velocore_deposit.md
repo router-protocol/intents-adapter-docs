@@ -10,16 +10,16 @@ The Velocore Deposit adapter outlines a feature that enables users holding funds
 
 - **Step 1:** Decodes the data received. Here the data is in the form of a struct that includes token addresses for which liquidity is to be added, address of the LP token, address of the recipient and respective amounts of token desired to be added.
 
-    ```javascript
-      struct VelocoreSupplyData {
-          address tokenA;
-          address tokenB;
-          address lpToken;
-          address to;
-          uint256 amountADesired;
-          uint256 amountBDesired;
-      }
-      ```
+```javascript
+    struct VelocoreSupplyData {
+        address tokenA;
+        address tokenB;
+        address lpToken;
+        address to;
+        uint256 amountADesired;
+        uint256 amountBDesired;
+    }
+```
 
 - **Step 2:** Receives the respective tokens.
 
