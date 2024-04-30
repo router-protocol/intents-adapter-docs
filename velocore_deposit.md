@@ -26,5 +26,3 @@ The Velocore Deposit adapter outlines a feature that enables users holding funds
 - **Step 3:** Calls the *_mint* function.
 
 **3. "_mint" Function:** This function is responsible for calling the Velocore Vault, minting the position on Velocore and transferring the LP asset to the user/recipient.
-
-**4. "parseInputs" Function:** This is a helper function present in every adapter used for decoding the inputs received in the *execute* function. 
