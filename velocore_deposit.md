@@ -1,6 +1,6 @@
-# MINT A POSITION ON VELOCORE
+# Deposit Liquidity and Mint A Position on Velocore
 
-The Velocore Mint adapter outlines a feature that enables users, holding funds on any compatible chain, to mint a position or adding liquidity on the various networks supported by Velocore when integrated.
+The Velocore Deposit adapter outlines a feature that enables users holding funds on any compatible chain to add liquidity on Velocore in one step.  
 
 ## Components of the Velocore Adapter contract
 
@@ -8,7 +8,7 @@ The Velocore Mint adapter outlines a feature that enables users, holding funds o
 
 **2. "execute" Function:** This function is present in every adapter contract and is expected to handle the data received from the multi caller(batch transaction contract).
 
-- **STEP 1:** Decodes the data received. Here the data is in the form of a struct that includes token addresses for which liquidity is to be added, address of the LP token, address of the recipient and respective amounts of token desired to be added.
+- **Step 1:** Decodes the data received. Here the data is in the form of a struct that includes token addresses for which liquidity is to be added, address of the LP token, address of the recipient and respective amounts of token desired to be added.
 
     ```javascript
       struct VelocoreSupplyData {
@@ -21,9 +21,9 @@ The Velocore Mint adapter outlines a feature that enables users, holding funds o
       }
       ```
 
-- **STEP 2:** Receives the respective tokens.
+- **Step 2:** Receives the respective tokens.
 
-- **STEP 3:** Calls the *_mint* function.
+- **Step 3:** Calls the *_mint* function.
 
 **3. "_mint" Function:** This function is responsible for calling the Velocore Vault, minting the position on Velocore and transferring the LP asset to the user/recipient.
 
