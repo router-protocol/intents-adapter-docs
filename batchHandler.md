@@ -62,6 +62,7 @@ The parameters for this function are explained below:
 #### Example 2 : Cross-chain liquid stake ETH
 
 ![EXAMPLE-2A](https://raw.githubusercontent.com/router-protocol/intents-adapter-docs/feat/first-draft/assets/EXAMPLE_2a.png)
+
 ![EXAMPLE-2B](https://raw.githubusercontent.com/router-protocol/intents-adapter-docs/feat/first-draft/assets/EXAMPLE_2b.png) 
 
 - If the user wants to stake Ethereum on a liquid staking protocol but has funds on some other chain, say Polygon:
