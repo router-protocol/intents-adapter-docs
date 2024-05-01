@@ -44,7 +44,7 @@ The parameters for this function are explained below:
 
 #### Example 1 : Add liquidity on Uniswap
 
-![EXAMPLE-1](https://github.com/router-protocol/intents-adapter-docs/blob/feat/first-draft/assets/EXAMPLE_1.png)
+![EXAMPLE-1](https://raw.githubusercontent.com/router-protocol/intents-adapter-docs/feat/first-draft/assets/EXAMPLE_1.png)
 
 - **Subcase 1 :** If the user doesn't have desired tokens:
     1. Swap to tokens A and B using the Dexspan adapter.
