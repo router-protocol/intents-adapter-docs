@@ -1,7 +1,7 @@
 
-# BATCH-TRANSACTION (MULTI-CALLER) CONTRACT
+# Batch Handler (Multicall) Contract
 
-The batch transaction contract acts as a versatile multi-caller contract, enabling the simultaneous execution of multiple transactions. It seamlessly integrates with Router's Cross-Chain Intents Framework (CCIF) Adapters, facilitating efficient cross-chain communication and interoperability. This capability enhances the contract's flexibility and utility, empowering users to engage in complex transactions across different chains with ease and efficiency.
+The batch handler contract acts as a versatile contract, enabling the execution of multiple actions in one transaction. It forms the base of Router's Cross-Chain Intent Framework (CCIF), and is invoked whenever user wants to interact with any intent adapter. This contract facilitates efficient cross-chain interoperability and empowers users to engage in complex transactions across different chains with ease.
 
 ## Key functions
 
@@ -59,7 +59,7 @@ The parameters for this function are explained below:
 
     In this case, the array of targets would be passed as *[address of uniswap adapter]* in the *executeBatchCallsSameChain* function along with other parameters accordingly.
 
-#### Example 2 : Crosschain liquid stake ETH
+#### Example 2 : Cross-chain liquid stake ETH
 
 ![EXAMPLE-2A](./assets/EXAMPLE_2a.png)
 ![EXAMPLE-2B](./assets/EXAMPLE_2b.png) 
