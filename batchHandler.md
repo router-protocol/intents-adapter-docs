@@ -63,6 +63,8 @@ The parameters for this function are explained below:
 
 ![EXAMPLE-2A](https://raw.githubusercontent.com/router-protocol/intents-adapter-docs/feat/first-draft/assets/EXAMPLE_2a.png)
 
+![EXAMPLE-2B](https://raw.githubusercontent.com/router-protocol/intents-adapter-docs/feat/first-draft/assets/EXAMPLE_2b.png) 
+
 - If the user wants to stake Ethereum on a liquid staking protocol but has funds on some other chain, say Polygon:
     1. The user can bridge funds from Polygon to Ethereum using Nitro Adapter on Polygon.
     2. After the request is received on Ethereum , the funds automatically get staked on the desired Liquid Staking Protocol.
