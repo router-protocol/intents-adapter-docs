@@ -40,4 +40,4 @@ The Parifi Open Position adapter outlines a feature that enables users holding f
 
 - **Step 3:** Calls the *_openNewPosition* function.
 
-**3. "_openNewPosition" Function:** This function is responsible for calling the Parify Order Manager, minting the position on Camelot and transferring the LP asset to the user/recipient.
+**3. "_openNewPosition" Function:** This function is responsible for calling the Parify Order Manager and opening a position on Parifi for the user that submitted the order.
