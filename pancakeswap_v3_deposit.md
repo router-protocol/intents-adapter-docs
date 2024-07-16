@@ -1,6 +1,6 @@
-# Deposit Liquidity and Mint A Position on Pancake Swap
+# Deposit Liquidity and Mint A Position on PancakeSwap V3
 
-The Pancake Swap Deposit adapter outlines a feature that enables users holding funds on any compatible chain to add liquidity and mint a new position on Pancake Swap in one step.  
+The PancakeSwap Deposit adapter outlines a feature that enables users holding funds on any compatible chain to add liquidity and mint a new position on PancakeSwap V3 in one step.  
 
 ## Components of the Pancake Swap Adapter contract
 
