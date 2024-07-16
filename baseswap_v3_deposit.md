@@ -1,6 +1,6 @@
-# Deposit Liquidity and Mint A Position on BaseSwap
+# Deposit Liquidity and Mint A Position on BaseSwap V3
 
-The BaseSwap Deposit adapter outlines a feature that enables users holding funds on any compatible chain to add liquidity and mint a new position on BaseSwap in one step.  
+The BaseSwap Deposit adapter outlines a feature that enables users holding funds on any compatible chain to add liquidity and mint a new position on BaseSwap V3 in one step.  
 
 ## Components of the BaseSwap Adapter contract
 
