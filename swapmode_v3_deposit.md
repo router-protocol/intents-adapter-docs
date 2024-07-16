@@ -1,6 +1,6 @@
-# Deposit Liquidity and Mint A Position on SwapMode
+# Deposit Liquidity and Mint A Position on SwapMode V3
 
-The SwapMode Deposit adapter outlines a feature that enables users holding funds on any compatible chain to add liquidity and mint a new position on SwapMode in one step.  
+The SwapMode Deposit adapter outlines a feature that enables users holding funds on any compatible chain to add liquidity and mint a new position on SwapMode V3 in one step.  
 
 ## Components of the SwapMode Adapter contract
 
